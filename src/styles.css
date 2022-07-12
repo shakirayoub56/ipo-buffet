@@ -1,0 +1,84 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  width: 100%;
+  height: 350px;
+  background-image: url(https://i.pinimg.com/736x/e6/7d/af/e67daf68a6e8f6d4a9283cb7d64b098c.jpg);
+  border-radius: 3px;
+  margin-bottom: 30px;
+}
+
+.nav {
+  height: 40px;
+  width: 80%;
+  margin: auto;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 2.5px;
+  margin-bottom: 80px;
+}
+.nav > div {
+  margin-right: 30px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  /* font-family: 'Noto Sans', sans-serif; */
+  font-family: "Square Peg", cursive;
+  margin-bottom: 6px;
+}
+p {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  margin-top: -12px;
+}
+
+.sorting {
+  display: flex;
+  flex-direction: column;
+  line-height: 3px;
+}
+
+.sorting > button {
+  width: 40px;
+  font-size: 13px;
+  margin-bottom: 5px;
+  border: none;
+  color: green;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.gridBox {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 400px);
+  gap: 20px;
+}
+
+.pagination {
+  display: flex;
+  gap: 10px;
+}
+
+.pagination > button {
+  height: 30px;
+  width: 50px;
+  font-size: 13px;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  background-color: rgb(191, 174, 174);
+  cursor: pointer;
+}
